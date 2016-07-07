@@ -25,9 +25,9 @@ Normal Installation (packaged egg)
 Copy the downloaded .egg to your Zenoss server and run the following commands as the zenoss
 user::
 
-   zenpack --install <package.egg>
-   zenhub restart
-   zopectl restart
+   * zenpack --install <package.egg>
+   * zenhub restart
+   * zopectl restart
 
 Developer Installation (link mode)
 ----------------------------------
@@ -35,9 +35,9 @@ If you wish to further develop and possibly contribute back to this
 ZenPack you should clone the git repository, then install the ZenPack in
 developer mode::
 
-   zenpack --link --install <package>
-   zenhub restart
-   zopectl restart
+   * zenpack --link --install <package>
+   * zenhub restart
+   * zopectl restart
 
 Configuration
 =============
@@ -46,5 +46,5 @@ Tested with Zenoss 4.2.5
 
 Screenshots
 ===========
-|DurationThresholdEdit|
-|DurationThresholdEvent|
+* |DurationThresholdEdit|
+* |DurationThresholdEvent|
