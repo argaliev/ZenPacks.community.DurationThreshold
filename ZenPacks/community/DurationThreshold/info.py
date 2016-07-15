@@ -1,10 +1,8 @@
 __doc__="""info.py
 
-Representation of Point Threshold components.
+Representation of Duration Threshold components.
 
-$Id: info.py,v 1.2 2010/12/14 20:45:46 jc Exp $"""
-
-__version__ = "$Revision: 1.4 $"[11:-2]
+"""
 
 from zope.interface import implements
 from Products.Zuul.infos import ProxyProperty
